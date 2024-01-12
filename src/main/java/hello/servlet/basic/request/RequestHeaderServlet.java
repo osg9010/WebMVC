@@ -10,7 +10,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Enumeration;
 
-@WebServlet(name = "requestSv",urlPatterns = "/request-header")
+@WebServlet(name = "requestHeaderSv",urlPatterns = "/request-header")
 public class RequestHeaderServlet extends HttpServlet {
 
     @Override
